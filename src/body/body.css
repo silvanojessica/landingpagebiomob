@@ -1,0 +1,250 @@
+
+*{
+    scroll-margin-top: 120px;
+}
+*:focus{
+    outline: none;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid #3C0C8B;
+}
+@media (max-width: 1090px){
+    .inicio-background,.informacao-background,
+    .apps-background,.form-background,.quem-somos-background,
+    .info-wrapper,.formulario-container,.porcentagem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 2%;
+        margin-left: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    @media (max-width: 1090px){
+        .area-botao{
+            flex-direction: row; 
+            width: 286px;
+            Height: 37px;
+            margin-top: 84px;
+            margin-left: 14.14%;
+            margin-right: 15.93%; 
+        }
+    }
+    .redes-sociais{
+        flex-direction: row; 
+        width: 286px;
+        Height: 37px;
+        margin-top: 84px;
+        margin-left: 14.14%;
+        margin-right: 15.93%;
+    }
+}
+
+
+.inicio-background{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    margin-top: 122px;
+    padding-left: 15.29% ;  
+    padding-right: 15%; 
+}
+.inicio-texto{
+    display: flex;
+    flex-direction: column;
+}
+.inicio-titulo{
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -1px;        
+    mix-blend-mode: normal;
+}
+.inicio-descricao{
+    font-style: normal;
+    font-weight: 500;
+    mix-blend-mode: normal;
+    margin-top: 20px;
+}
+.inicio-imagem{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.informacao-background{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: wrap;
+    padding-left: 15.29% ;  
+    padding-right: 19.57%;
+}
+.info-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self:center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+.info-titulo-text{
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -1px;        
+    mix-blend-mode: normal;
+}
+.info-descricao{
+    font-style: normal;
+    font-weight: 500;
+    mix-blend-mode: normal;
+    margin-top: -20px;
+}
+.info-wrapper{
+    display: flex;
+    align-items: center;
+    gap:8%;
+}
+.porcentagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:5%;
+}
+
+.apps-background{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 15.29% ;  
+    padding-right: 19.57%;
+}
+.apps-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self:center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+.apps-titulo-text{
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -1px;        
+    mix-blend-mode: normal;
+}
+.apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -1px;        
+    mix-blend-mode: normal;
+}
+.apps-img{
+    align-self: flex-end;
+    margin-bottom: -5px;
+}
+
+.form-background{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: nowrap;
+    padding-left: 15.29% ;  
+    padding-right: 10.57%;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -1px;
+    mix-blend-mode: normal;
+    max-width: 100vw;
+    
+}
+
+.form-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+.form-titulo-text{
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -1px;
+    mix-blend-mode: normal;
+}
+.formulario-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    gap: 5%;
+    max-width: 100vw;
+    
+}
+.formulario-submit{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 92px;
+}
+
+.quem-somos-background{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 15.29% ;  
+    padding-right: 19.57%;  
+}
+
+.quem-somos-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self:center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+.quem-somos-titulo-text{
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -1px;
+    mix-blend-mode: normal;
+}
+
+.quem-somos-descricao{
+    font-style: normal;
+    font-weight: 500;
+    mix-blend-mode: normal;
+    margin-top: -5px;
+    margin-bottom: 40px;
+}
+
+.quem-somos-destaque{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+   
+
+   
